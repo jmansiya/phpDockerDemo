@@ -1,5 +1,5 @@
 FROM josemansilla/apache2:1.0
-MAINTAINER José Mansilla García-Gil "jose.mansilla@babel.es"
+MAINTAINER Jose Mansilla García-Gil "jose.mansilla@babel.es"
 
 RUN apt-get update && \
       apt-get install -y php && \
